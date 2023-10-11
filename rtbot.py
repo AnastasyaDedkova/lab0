@@ -147,7 +147,7 @@ def hacked_page_menu_inlinekeyboard():
     keyboard = [[InlineKeyboardButton('ВКонтакте', url='https://vhod.ru/vkontakte/parol/')],
                 [InlineKeyboardButton('Одноклассники', url='https://vhod.ru/odnoklassniki/vzlomali/')],
                 [InlineKeyboardButton('Телеграм',
-                                      url='https://web-telegramm.org/telegramm/vopros-otvet-telegramm/345-chto-delat-esli-menya-vzlomali-v-telegramm.html')]]
+                                      url='https://www.sravni.ru/text/vzlomali-telegram/')]]
     return InlineKeyboardMarkup(keyboard)
 
 
@@ -173,7 +173,7 @@ def social_menu_inlinekeyboard():
     keyboard = [
         [InlineKeyboardButton('Социальные сети', url='https://vc.ru/social/81702-bezopasnost-v-socialnyh-setyah')],
         [InlineKeyboardButton('WhatsApp', url='https://www.whatsapp.com/safety?lang=ru/')],
-        [InlineKeyboardButton('Viber', url='https://goo.su/cetP')]]
+        [InlineKeyboardButton('Viber', url='https://clck.ru/3643rA')]]
     return InlineKeyboardMarkup(keyboard)
 
 
@@ -210,7 +210,7 @@ def mail_menu_inlinekeyboard():
 def video_menu_inlinekeyboard():
     keyboard = [
         [InlineKeyboardButton('Основы работы на компьютере', url='https://www.azbukainterneta.ru/guidelines/video/')],
-        [InlineKeyboardButton('Уроки кибербезопасности', url='https://education.kaspersky.com/ru/')],
+        [InlineKeyboardButton('Уроки кибербезопасности', url='https://www.kaspersky.ru/resource-center/preemptive-safety?page=1&sub=internet-safety-tips')],
         [InlineKeyboardButton('Онлайн-занятия', url='https://starikam.org/trips/')]]
     return InlineKeyboardMarkup(keyboard)
 
